@@ -1,12 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>P1StudyPoint</title>
 </head>
+
 <body>
-    
+    <style>
+        .mainPageTopicButton {
+            padding: 20px 15px;
+            margin: 5px;
+            width: fit-content;
+            color: #fff;
+            word-wrap: break-word;
+            font-size: 22px;
+            white-space: normal;
+            align-items: center;
+            text-decoration: none;
+            border-radius: 5px;
+            border-top: 2px solid #fff;
+            border-left: none;
+            border-right: none;
+            transition: .5s;
+            background-color: #f0f8ff;
+            border-bottom: 2px solid #000
+        }
+
+        .mainPageTopicButton:hover {
+            box-shadow: 0 0 10px #1BDB94;
+            transition: .2s;
+            background-color: #1BDB94;
+        }
+
+        .mainPageTopicButton a {
+            color: #000;
+            text-decoration: none
+        }
+
+        .mainPageTopicButton a:hover {
+            transition: .3s;
+            color: #fff;
+            text-shadow: 0 0 5px #000
+        }
+
+        .mainPageTopicBox {
+            align-items: center;
+            text-align: center
+        }
+
+        .mainPageTopicFeedDiv {
+            margin:5%;
+            text-decoration: none
+        }
+
+        .mainPageTopicFeedDiv a {
+            margin-left: 15px;
+            text-decoration: none;
+            transition: .4s;
+            text-decoration: none;
+            color: #082ba9
+        }
+
+        .mainPageTopicFeedDiv a:hover {
+            color: #1BDB94;
+            text-decoration: underline;
+            transition: .4s;
+            font-weight: 700
+        }
+
+        @media only screen and (min-width: 1501px) {
+            .mainPageTopicButton {
+                width: 25%
+            }
+        }
+
+        @media only screen and (max-width: 1500px) {
+            .mainPageTopicButton {
+                width: 30%
+            }
+        }
+
+        @media only screen and (max-width: 1200px) {
+            .mainPageTopicButton {
+                width: 35%
+            }
+        }
+
+        @media only screen and (max-width: 900px) {
+            .mainPageTopicButton {
+                width: 40%
+            }
+        }
+
+        @media only screen and (max-width: 680px) {
+            .mainPageTopicButton {
+                width: 90%
+            }
+        }
+
+        .lessonTopicHeadBox {
+            border-radius: 5px;
+            color: white !important;
+            background-color: #08a96e;
+            box-shadow: 0 0 5px #1BDB94;
+            border-top: 2px solid rgb(255, 255, 255);
+            border-bottom: 2px solid black;
+            height: 35px;
+            font-family: sans-serif;
+            margin: 10px;
+            padding: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            font-weight: bold;
+
+        }
+
+        .postListDivTime {
+            transition: 0.6s;
+        }
+
+        .chapterDivList {
+            border-radius: 5px;
+            border-bottom: 2px solid black;
+            border-top: 2px solid rgb(255, 255, 255);
+            color: black;
+            margin: 10px;
+            padding: 10px;
+            align-items: center;
+            display: flex;
+            transition: 0.6s;
+            background-color: aliceblue;
+            font-family: sans-serif;
+            line-height: 24px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+        .chapterDivList a{
+            color: #fff;
+        }
+
+        .chapterDivList:hover {
+            border-radius: 25px;
+            border-bottom: 2px solid black;
+            border-top: 2px solid rgb(255, 255, 255);
+            color: white !important;
+            padding-left: 30px;
+            transition: 0.4s;
+            background-color: #1BDB94;
+            box-shadow: 0 0 5px #1BDB94;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            text-shadow: 0 0 5px #000;
+        }
+
+        .chapterDivList a {
+            color: rgb(0, 0, 0) !important;
+            text-decoration: none;
+            transition: 0.6s;
+        }
+
+    </style>
+
+    <h1 class="mainPageTopicBox">Welcome in Study-Point</h1>
+    <div class="mainPageTopicBox">
+        <button class="mainPageTopicButton"><a
+                href="https://indiantechnoera.blogspot.com/p/computer-fundamental-index.html"> Computer <br> Fundamental
+            </a></button>
+        <button class="mainPageTopicButton"><a
+                href="https://indiantechnoera.blogspot.com/p/computer-fundamental-index.html"> Computer <br> Fundamental
+            </a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/computernetwork.html">
+                Computer
+                <br> Network</a></button>
+        <button class="mainPageTopicButton"><a
+                href="https://indiantechnoera.blogspot.com/p/programing-languages.html">Programming <br>
+                Language</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/basiceducation.html"> Basic
+                <br>
+                Education</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/matriculation-10.html">10th
+                <br>
+                Matriculation</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/blog-page_29.html"> 12th
+                <br>
+                Intermediate </a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/b-tech-1y.html"> Graduation
+                <br>
+                Coursers</a></button>
+        <button class="mainPageTopicButton"><a
+                href="https://indiantechnoera.blogspot.com/2020/04/sachchi-namaaz-hindi.html"> Hindi <br>
+                Hidayat</a></button>
+        <button class="mainPageTopicButton"><a
+                href="https://indiantechnoera.blogspot.com/2020/04/sachchi-namaaz-urdu.html">
+                Urdu <br> Hidayat</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/english-tutorial.html">
+                Basic
+                <br> English</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/english-tutorial.html">
+                English
+                <br> Grammar</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/english-tutorial.html">
+                English
+                <br> Spoken</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/mathsworld.html"> Maths <br>
+                World </a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/physics.html"> Physics <br>
+                World </a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/chemistryworld.html">
+                Chemistry
+                <br> World</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/biologyworld.html"> Biology
+                <br>
+                World</a></button>
+        <button class="mainPageTopicButton"><a href="https://indiantechnoera.blogspot.com/p/news.html"> General <br>
+                Science
+            </a></button>
+    </div>
+
+    <br>
+    <div class="mainPageTopicFeedDiv">
+        <div class="lessonTopicHeadBox">New Feeds:</div>
+        <div class='postListDivTime'><b><a class='chapterDivList' href="https://reading-boy.blogspot.com"
+                    target="_blank"> Reading Body </a></b></div>
+        <div class='postListDivTime'><b><a class='chapterDivList' href="https://lyricsamin.blogspot.com/"
+                    target="_blank"> Lyricsamin </a></b></div>
+    </div>
+
 </body>
+
 </html>

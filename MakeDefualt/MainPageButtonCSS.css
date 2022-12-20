@@ -1,0 +1,163 @@
+.mainPageTopicButton {
+    padding: 20px 15px;
+    margin: 5px;
+    width: fit-content;
+    color: #fff;
+    word-wrap: break-word;
+    font-size: 22px;
+    white-space: normal;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border-top: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+    background-color: #f0f8ff;
+    border-bottom: 2px solid #000
+}
+
+.mainPageTopicButton:hover {
+    box-shadow: 0 0 10px #1BDB94;
+    transition: .2s;
+    background-color: #1BDB94;
+}
+
+.mainPageTopicButton a {
+    color: #000;
+    text-decoration: none
+}
+
+.mainPageTopicButton a:hover {
+    transition: .3s;
+    color: #fff;
+    text-shadow: 0 0 5px #000
+}
+
+.mainPageTopicBox {
+    align-items: center;
+    text-align: center
+}
+
+.mainPageTopicFeedDiv {
+    margin:5%;
+    text-decoration: none
+}
+
+.mainPageTopicFeedDiv a {
+    margin-left: 15px;
+    text-decoration: none;
+    transition: .4s;
+    text-decoration: none;
+    color: #082ba9
+}
+
+.mainPageTopicFeedDiv a:hover {
+    color: #1BDB94;
+    text-decoration: underline;
+    transition: .4s;
+    font-weight: 700
+}
+
+@media only screen and (min-width: 1501px) {
+    .mainPageTopicButton {
+        width: 25%
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .mainPageTopicButton {
+        width: 30%
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .mainPageTopicButton {
+        width: 35%
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mainPageTopicButton {
+        width: 40%
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .mainPageTopicButton {
+        width: 90%
+    }
+}
+
+.lessonTopicHeadBox {
+    border-radius: 5px;
+    color: white !important;
+    background-color: #08a96e;
+    box-shadow: 0 0 5px #1BDB94;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    height: 35px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: bold;
+
+}
+
+.postListDivTime {
+    transition: 0.6s;
+}
+
+.chapterDivList {
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    transition: 0.6s;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.chapterDivList a{
+    color: #fff;
+}
+
+.chapterDivList:hover {
+    border-radius: 25px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid rgb(255, 255, 255);
+    color: white !important;
+    padding-left: 30px;
+    transition: 0.4s;
+    background-color: #1BDB94;
+    box-shadow: 0 0 5px #1BDB94;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-shadow: 0 0 5px #000;
+}
+
+.chapterDivList a {
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+    transition: 0.6s;
+}

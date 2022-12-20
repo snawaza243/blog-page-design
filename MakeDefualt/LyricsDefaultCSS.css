@@ -1,0 +1,100 @@
+/* Lyrics table css */
+
+/* lyrics table styling */
+p {
+    color: #000
+}
+.lyricsTable {
+    width: 95%;
+    margin-top: -10px;
+}
+
+.lyricsTableAbout {
+    color: rgb(0, 98, 255);
+    text-align: left;
+    width: 100px;
+    font-family: times;
+}
+
+.lyricsTableAboutData {
+    border-bottom: 2px dotted #000;
+    padding: 10px;
+}
+
+
+
+/* table head, code head bold extension title */
+.tableHeadBoldTypeH2 {
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    background-color: #1BDB94;
+    height: 10px;
+    align-items: center;
+    display: inline-flex;
+    color: #fff;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000;
+
+
+
+}
+
+.tableHeadBoldTypeData,
+.lyricsTableAboutMain {
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    word-wrap: break-word;
+    background-color: #ffffff;
+    height: 10px;
+    align-items: center;
+    color: #fff;
+    text-transform: capitalize;
+    /* margin: 10px;     */
+
+}
+
+.tableHeadBoldTypeH2:hover,
+.tableHeadBoldTypeData:hover,
+.lyricsTableAboutMain:hover {
+    box-shadow: 0 0 5px #000;
+    transition: 0.2s ease-in-out;
+}
+
+.tableHeadBoldTypeData p,
+.lyricsTableAboutData {
+    border-bottom: 2px dotted black;
+    color: blue;
+    font-family: kokila;
+    font-size: 28px;
+    padding: 3px;
+    transition: 0.4s;
+    text-transform: capitalize;
+    margin: 3px;
+    padding: 10px;
+}
+
+.lyricsTableAboutData {
+    border-bottom: 2px dotted black;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    transition: 0.4s;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 20px;
+
+    text-transform: capitalize;
+}
+
+.tableHeadBoldTypeData p:hover,
+.lyricsTableAboutData:hover {
+    box-shadow: 0 0 2px #000000;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}

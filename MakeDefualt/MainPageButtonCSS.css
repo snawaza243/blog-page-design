@@ -1,3 +1,5 @@
+
+/* main head page css button */
 .mainPageTopicButton {
     padding: 20px 15px;
     margin: 5px;
@@ -89,6 +91,9 @@
     }
 }
 
+
+
+/* lesson topic list css */
 .lessonTopicHeadBox {
     border-radius: 5px;
     color: white !important;

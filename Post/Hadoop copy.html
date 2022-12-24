@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../MakeDefualt/MakeDefaultMerge.css">
+</head>
+
+<body>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Introduction to Big Data Platforms</h2>
+  <p>&nbsp;</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">What is Map Reduce?</h2>
+  <p>Map Reduce is a programming model used for processing and generating large data sets. It is a distributed computing
+    framework that allows for parallel processing of data across multiple nodes.</p>
+  <p>The MapReduce framework is divided into two phases, the map phase and the reduce phase. The map phase takes an
+    input dataset and processes it into a set of key-value pairs. The reduce phase takes the output from the map phase,
+    groups the data by key, and reduces it into a smaller set of values. The output of the reduce phase is the final
+    result of the MapReduce job.</p>
+  <p>MapReduce is an effective way of processing and analyzing large datasets, as it allows for parallel processing of
+    data across multiple nodes. This makes it more efficient than traditional data processing systems which require data
+    to be processed sequentially in a single node. MapReduce also provides fault tolerance and scalability, which makes
+    it suitable for handling large datasets.</p>
+  <p><br /></p>
+  <h2>Map Reduce Architecture&nbsp;</h2>
+  <p>Map
+  <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container"
+    style="margin-left: auto; margin-right: auto;">
+    <tbody>
+      <tr>
+        <td style="text-align: center;"><a
+            href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQpRb-T7En12cHkq48QZPGX_13k1dCUxJdzWuUZb-xIT77lb69BKayeXPSOaeoCDATK9y-6_IpQzcPdTSIuRphzk3_K0AE7PI9XiyjzCKqRiUmf8Mq5xuYIPA1qJjCilOX5KWBI__1ACJEozLC8CbQfxVP-codIi6u5uurUelL-RLJJBD042nb82Ux/s933/MapReduce-Architecture.jpg"
+            imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="721"
+              data-original-width="933"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQpRb-T7En12cHkq48QZPGX_13k1dCUxJdzWuUZb-xIT77lb69BKayeXPSOaeoCDATK9y-6_IpQzcPdTSIuRphzk3_K0AE7PI9XiyjzCKqRiUmf8Mq5xuYIPA1qJjCilOX5KWBI__1ACJEozLC8CbQfxVP-codIi6u5uurUelL-RLJJBD042nb82Ux/s16000/MapReduce-Architecture.jpg" /></a>
+        </td>
+      </tr>
+      <tr>
+        <td class="tr-caption" style="text-align: center;">Big Data Map Reduce | IndianTechnoEra</td>
+      </tr>
+    </tbody>
+  </table><br /></p>
+  <div class="separator" style="clear: both; text-align: center;"><br /></div><br />
+  <div class="separator" style="clear: both; text-align: left;">Example:&nbsp;</div>
+  <div class="separator" style="clear: both; text-align: center;"><a
+      href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjPpRJBcb4_H6Jw7S9ONv5i3C8uXkgXbjOCr8QfZRpb7VEK8B2MCySnhB-_rOOgThqS9sw9fqRqlR3w622QwUWZD3ARZWLPp7tw5LvpvGnVBPyvKnTg_9_8igZ9wASmvczZL9oNNOmgeKTHWR_WLHWRtdqT49rG4t2MO4CYuRcMSaD209RsBjMlv3H/s642/061114_0930_Introductio1.png"
+      imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="460"
+        data-original-width="642"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjPpRJBcb4_H6Jw7S9ONv5i3C8uXkgXbjOCr8QfZRpb7VEK8B2MCySnhB-_rOOgThqS9sw9fqRqlR3w622QwUWZD3ARZWLPp7tw5LvpvGnVBPyvKnTg_9_8igZ9wASmvczZL9oNNOmgeKTHWR_WLHWRtdqT49rG4t2MO4CYuRcMSaD209RsBjMlv3H/s16000/061114_0930_Introductio1.png" /></a>
+  </div>
+  <p></p>
+  <h2 class="tableHeadBoldTypeH2">Anatomy of a Map Reduce&nbsp;</h2>
+  <p>1. Input: The input to a Map Reduce job is typically a large data set that is stored in a distributed file system.
+    The data set is divided into chunks that are processed in parallel.</p>
+  <p>2. Map: The Map phase processes each input chunk and produces a set of intermediate key-value pairs.&nbsp;</p>
+  <p>3. Shuffle and Sort: The Shuffle and Sort phase collects the intermediate pairs from the Map phase, groups them by
+    key, and sorts them by value.&nbsp;</p>
+  <p>4. Reduce: The Reduce phase processes each key-value pair and generates a set of output values.&nbsp;</p>
+  <p>5. Output: The output of a Map Reduce job is typically stored in a distributed file system.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Anatomy of a Map reduce Job Run</h2>
+  <p>1. Job Submission: The user submits the job to the JobTracker, which then looks for available TaskTrackers to
+    execute the job.</p>
+  <p>2. Job Initialization: The JobTracker initializes the job and distributes the job configuration to the
+    TaskTrackers.</p>
+  <p>3. Map Task Assignment: The JobTracker assigns the map tasks to the TaskTrackers.</p>
+  <p>4. Map Task Execution: The TaskTrackers execute the map tasks in parallel and generate intermediate key-value
+    pairs.</p>
+  <p>5. Shuffle and Sort: The TaskTrackers shuffle and sort the intermediate key-value pairs and send them to the
+    reducer.</p>
+  <p>6. Reduce Task Assignment: The JobTracker assigns the reduce tasks to the TaskTrackers.</p>
+  <p>7. Reduce Task Execution: The TaskTrackers execute the reduce tasks in parallel and generate the output key-value
+    pairs.</p>
+  <p>8. Output: The output key-value pairs are written to the output file.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Anatomy of a Map Reduce failures</h2>
+  <p>1. System Errors: System errors occur when the MapReduce job fails due to a problem with the underlying
+    infrastructure, such as an overloaded cluster or insufficient memory.</p>
+  <p>2. Application Errors: Application errors are caused when the MapReduce job fails due to a bug in the application
+    code. These errors can be caused by incorrect logic, coding errors, or other issues.</p>
+  <p>3. Data Errors: Data errors occur when the input data is incorrect or corrupt. These errors can be caused by bad
+    formatting or missing data.</p>
+  <p>4. Scheduling Errors: Scheduling errors occur when the job is not scheduled properly. This can lead to jobs not
+    running when they should, or running too frequently.</p>
+  <p>5. Network Errors: Network errors occur when the job fails due to a problem with the network connection. This can
+    be caused by a slow connection or a dropped connection.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Anatomy of a Map Reduce job scheduling</h2>
+  <p>1. The client sends a request to the JobTracker to start a job.</p>
+  <p>2. The JobTracker obtains a list of available TaskTrackers from the NameNode.</p>
+  <p>3. The JobTracker creates a job configuration and divides the job into tasks.</p>
+  <p>4. The JobTracker sends the tasks to the TaskTrackers.</p>
+  <p>5. The TaskTrackers execute the task on the node where the data resides.</p>
+  <p>6. The TaskTrackers report the progress of the tasks back to the JobTracker.</p>
+  <p>7. The JobTracker monitors the progress of the tasks and reschedules any tasks that fail.</p>
+  <p>8. The TaskTrackers send the output of the tasks back to the JobTracker.</p>
+  <p>9. The JobTracker aggregates the output of the tasks and sends it back to the client.</p>
+  <p>10. The client receives the output from the JobTracker.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Anatomy of a Map Reduce Shuffle and Sort</h2>
+  <p>1. Partitioning: Before the shuffle and sort can begin, the map output must be partitioned. Partitioning
+    distributes the data to the reducers based on the partitioning function. This function is usually based on the key
+    of the key-value pair.</p>
+  <p>2. Shuffle: The shuffle phase is when the map output is sent to the reducers. The map output is sorted by the key
+    and then transferred to the reducer nodes.</p>
+  <p>3. Sort: After the map output is transferred to the reducer nodes, the map output is sorted by the key. This is
+    done to ensure that all values with the same key are grouped together in one location.</p>
+  <p>4. Merge: The reducer merges the sorted map output into one sorted list. This list is then used by the reducer to
+    generate the final output.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Anatomy of a Map Reduce ask execution</h2>
+  <p>1. The user submits their MapReduce job to the cluster.</p>
+  <p>2. The JobTracker splits the job into tasks and assigns them to TaskTrackers.</p>
+  <p>3. The TaskTrackers execute the Map and Reduce tasks, producing intermediate key-value pairs and output files.</p>
+  <p>4. The JobTracker monitors the progress of the tasks and coordinates the execution of the tasks.</p>
+  <p>5. The Map tasks read input files, process the data, and produce intermediate key-value pairs.</p>
+  <p>6. The Reduce tasks combine the intermediate key-value pairs and produce output files.</p>
+  <p>7. The output files are written to HDFS, and the job is completed.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Map Reduce Types and Formats</h2>
+  <p>MapReduce is a type of parallel computing for processing large data sets.&nbsp;</p>
+  <p>It consists of two processes, Map and Reduce, which are used to process and analyze large volumes of data.</p>
+  <p>1. Streaming: In this type of MapReduce, data is processed in real-time.</p>
+  <p>2. Batch: Batch MapReduce is used to process large volumes of data in batches.</p>
+  <p>3. Interactive: This type of MapReduce is used to run interactive queries on large datasets.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">MapReduce Formats:</h2>
+  <p>1. Key-Value pairs: This is the most common MapReduce format. It consists of a key-value pair, which is used to
+    store and process data.</p>
+  <p>2. Sequence files: This is a type of MapReduce format which is used to store sequence data.</p>
+  <p>3. Avro files: This is a type of MapReduce format which is used to store and process data in a compact format.</p>
+  <p>4. Text files: Text files are used to store and process textual data</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Map Reduce Features</h2>
+  <p>1. MapReduce is a programming model for processing large data sets. It enables organizations to perform distributed
+    computing on large data sets by running multiple tasks in parallel across a cluster of computers.</p>
+  <p><br /></p>
+  <p>2. MapReduce splits large data sets into smaller chunks (called “splits”) and then processes each split in parallel
+    on different nodes. Each node processes its split and then sends the output to a single node for aggregation.</p>
+  <p><br /></p>
+  <p>3. MapReduce is optimized for processing large data sets, and it is a popular choice for organizations that need to
+    process large data sets.</p>
+  <p><br /></p>
+  <p>4. MapReduce is fault tolerant and easy to scale. It can easily be scaled up or down as needed to accommodate
+    changes in data set sizes.</p>
+  <p><br /></p>
+  <p>5. MapReduce supports a variety of programming models, such as Java, Python, and Hadoop. This makes it easy to use
+    with existing applications and systems.</p>
+  <p><br /></p>
+  <p>6. MapReduce is highly efficient and cost effective. It is designed to minimize the amount of resources required to
+    process large data sets.</p>
+  <p><br /></p>
+  <p><br /></p>
+  <p>&nbsp;</p>
+  <style>
+    .tableHeadBoldTypeH2 {
+      text-align: left;
+
+    }
+
+    .post-body h2 {
+      color: #fff;
+      font-family: times;
+      text-align: left;
+    }
+
+    .post-body p,
+    p {
+      color: #000;
+    }
+  </style>
+
+</body>
+
+</html>

@@ -98,7 +98,6 @@
     border-radius: 5px;
     color: white !important;
     background-color: #08a96e;
-    box-shadow: 0 0 5px #1BDB94;
     border-top: 2px solid rgb(255, 255, 255);
     border-bottom: 2px solid black;
     height: 35px;
@@ -114,6 +113,11 @@
     align-items: center;
     width: fit-content;
     font-weight: bold;
+
+}
+.lessonTopicHeadBox:hover{
+    box-shadow: 0 0 5px #1BDB94;
+    transition: 0.4s;
 
 }
 

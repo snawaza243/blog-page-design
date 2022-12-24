@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Introduction to Big Data Platforms</h2>
+  <p>&nbsp;</p><p>Hadoop: Introduction,&nbsp;</p>
+  <h2 class="tableHeadBoldTypeH2">What is Hadoop?</h2>
+  <p>
+    Hadoop is an open source software platform for distributed storage and
+    distributed processing of very large data sets on computer clusters built from
+    commodity hardware. It is designed to scale up from single servers to
+    thousands of machines, each offering local computation and storage.&nbsp;</p><p>The Hadoop
+    platform includes the Hadoop distributed file system (HDFS) for storage, the
+    MapReduce programming model for parallel processing of large data sets, and
+    the Apache Hadoop software library for distributed computing.&nbsp;</p><p>Hadoop also
+    includes a library of distributed programming models and utilities for
+    deploying and managing distributed applications on large clusters of
+    computers.</p><p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">What are key advantages of Apache Hadoop?</h2>
+  <p>
+    1. Scalability: Hadoop clusters can be easily scaled up or down by adding or
+    removing nodes, allowing it to quickly adapt to changing computing needs.</p>
+  <p>
+    2. Fault Tolerance: Hadoop uses data replication and automated failover to
+    ensure that data is not lost when a node goes down.</p>
+  <p>
+    3. Cost-Effective: Hadoop can store and process large amounts of data on
+    commodity hardware, making it a cost-effective solution.</p>
+  <p>
+    4. Easy to Use: Hadoop is designed to be an easy-to-use platform, with a
+    high-level API that makes it easy to develop applications.</p>
+  <p>
+    5. Flexibility: Hadoop can process a variety of data including structured,
+    unstructured, and real-time data.</p>
+  <p>
+    6. High Availability: Hadoop ensures that data is always available and
+    accessible, even if a node goes down.
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Hadoop vs. RDBMS</h2>
+  <p>Hadoop and RDBMS both offer powerful tools for managing and analyzing data,
+    but they have very different approaches. Hadoop is an open-source framework
+    for storing and processing large datasets on a distributed computing system.
+    It is designed to work with commodity hardware and can scale horizontally to
+    support large datasets. It is well suited for problems that require large
+    amounts of data or data that is too large for a single machine.</p>
+  <p>
+    RDBMS, on the other hand, is a traditional database system that stores data in
+    a structured format. It is designed to work with single machines, and is best
+    suited for problems that require a lot of data manipulation and querying. It
+    is not as well suited for large datasets, as it can become slow and
+    inefficient when working with large amounts of data.
+  </p><p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Differences between Hadoop and RDBMS</h2><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMSXAt3n8kTUF1N81LdYtTbiJupEYKSF2nONO6zg8sDH74Nq1hjx-RYb7Z__e4Upvn8IuuZV8l4IvZBrWkwtITdvxPFYUtkWsBDYEgZERdOo5O8DTkaJ3_NfMXm1m5CstiTsJmuSt_4JTKQi8B4A5ZtdoT-Tlo7AM4JeTn429qInHzoim5nyebJYu1/s708/Difference-between-RDBMS-and-Hadoop.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="537" data-original-width="708" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMSXAt3n8kTUF1N81LdYtTbiJupEYKSF2nONO6zg8sDH74Nq1hjx-RYb7Z__e4Upvn8IuuZV8l4IvZBrWkwtITdvxPFYUtkWsBDYEgZERdOo5O8DTkaJ3_NfMXm1m5CstiTsJmuSt_4JTKQi8B4A5ZtdoT-Tlo7AM4JeTn429qInHzoim5nyebJYu1/s16000/Difference-between-RDBMS-and-Hadoop.png" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;"><div style="text-align: center;">Differences Between Hadoop and RDBMS | IndianTechnoEra</div></td></tr></tbody></table><div><br /></div>
+  <p>
+    In summary, Hadoop is best suited for large datasets, while RDBMS is better
+    for smaller datasets that require more complex data manipulation and querying.
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Hadoop Architecture</h2>
+  <p><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzdI_Q5QBOqF4a4mwD0ovSMLuNvxmqs9JtaPswyHKkDvA5WXT5U446qSmU9FQ6qXYWZC7Y7xo5xfuDY6DZLa30Lk62g5K4wS0bCN3QSC2nWcsoVi3OcH0ot4drE36W4R1v5bE3XPXYJLCKDxNnSP_v0-LzKwcEXoVHo2oLCEpV4nB6OBSQjzDroyqV/s472/hadoop_architecture.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" data-original-height="472" data-original-width="400" height="320" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzdI_Q5QBOqF4a4mwD0ovSMLuNvxmqs9JtaPswyHKkDvA5WXT5U446qSmU9FQ6qXYWZC7Y7xo5xfuDY6DZLa30Lk62g5K4wS0bCN3QSC2nWcsoVi3OcH0ot4drE36W4R1v5bE3XPXYJLCKDxNnSP_v0-LzKwcEXoVHo2oLCEpV4nB6OBSQjzDroyqV/s320/hadoop_architecture.jpg" width="271" /></a><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6YvA2ZFT0TXd17MF7iepaJIrvFtlGwS5BYW6NPg75nHpyoVkz5_ObE07ANAOL8JYSQuLvzDAKdlTZqdDwG24ONQWG5J3oYiMdxI-vHG26rnuG0ZFLtYZlBpPqzettRPHgKjkwZ3NUjLaNW0FIKLUpiCSEx-sBmmJ_6ZQO9fAZ0TX4qXbVZXxfjyA_/s850/High-level-architecture-of-Hadoop-11.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em; text-align: center;"><img border="0" data-original-height="458" data-original-width="850" height="172" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6YvA2ZFT0TXd17MF7iepaJIrvFtlGwS5BYW6NPg75nHpyoVkz5_ObE07ANAOL8JYSQuLvzDAKdlTZqdDwG24ONQWG5J3oYiMdxI-vHG26rnuG0ZFLtYZlBpPqzettRPHgKjkwZ3NUjLaNW0FIKLUpiCSEx-sBmmJ_6ZQO9fAZ0TX4qXbVZXxfjyA_/s320/High-level-architecture-of-Hadoop-11.png" width="320" /></a></p><p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">What are Hadoop components?</h2>
+  <p>
+    1. HDFS (Hadoop Distributed File System): HDFS is a distributed file system
+    that runs on commodity hardware. It is highly fault-tolerant and designed to
+    be deployed on low-cost hardware. It provides high throughput access to
+    application data and is suitable for applications that have large data sets.</p>
+  <p>
+    2. YARN (Yet Another Resource Negotiator): YARN is a cluster resource
+    management system for Hadoop. It provides a platform for applications to run
+    on a Hadoop cluster, managing resources such as CPU, memory, and storage. It
+    is responsible for scheduling tasks and managing resources across the cluster.</p>
+  <p>
+    3. MapReduce: MapReduce is a programming model for processing large data sets
+    on clusters of computers. It divides large jobs into smaller tasks that can be
+    run in parallel on multiple machines. MapReduce is used for data intensive
+    applications such as web indexing and data mining.</p>
+  <p>
+    4. Common: It contains the libraries and utilities needed by other Hadoop
+    modules.</p>
+  <p>
+    5. HBase: HBase is a distributed, column-oriented database. It is built on top
+    of HDFS and provides random, real-time read/write access to large datasets. It
+    is used for applications such as web indexing and real-time analytics.</p>
+  <p>
+    6. Hive: Hive is a data warehousing system for Hadoop that provides an
+    SQL-like query language for querying data stored in HDFS. Hive provides data
+    summarization, query, and analysis.</p>
+  <p>
+    7. Pig: Pig is a high-level data flow language and execution framework for
+    parallel computation. It is used to process large datasets stored in HDFS. Pig
+    programs are written in a data flow language called Pig Latin.</p>
+  <p>
+    8. Oozie: Oozie is a workflow scheduler system for Hadoop. It is used to
+    manage and schedule Hadoop jobs. Oozie can be used to schedule and manage
+    complex multi-stage data processing applications.</p>
+  <p>
+    9. Flume: It is a distributed, reliable, and available service for efficiently
+    collecting, aggregating, and moving large amounts of streaming data.</p>
+  <p>10. Spark: Apache Spark is an open-source, distributed processing framework and
+    in-memory computing engine for big data analytics. It is built atop the Hadoop
+    Distributed File System (HDFS). It is designed to provide an easy-to-use and
+    unified framework for large-scale data processing. It is designed to process
+    data in parallel and provides enhanced speeds for in-memory data processing.
+    It is also used to perform analytics on large datasets stored in HDFS. Spark
+    is written in Scala and provides APIs in Python and Java.
+  </p>
+  <p>
+    Spark can also be used in conjunction with other Hadoop components such as
+    Hive, HBase, and ZooKeeper.</p>
+  <p>
+    11. Zookeeper:&nbsp; Hadoop component Zookeeper is a distributed coordination
+    service that helps manage large distributed systems. It is used to store
+    configuration information and provides services such as synchronization, group
+    services, and naming. It provides a consistent view of the system provides fault-tolerance. It is a critical component of any Hadoop
+    cluster and is used to coordinate, manage, and synchronize the various nodes
+    in the cluster.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">HDFS Design and goals</h2>
+  <p>
+    Hadoop Distributed File System (HDFS) is the primary storage system used by
+    Apache Hadoop. It is a distributed file system designed to store and manage
+    large amounts of data across a cluster of commodity hardware. HDFS is designed
+    to run on low-cost commodity hardware and provide high throughput access to
+    application data.</p>
+  <h3 style="text-align: left;">The goals of HDFS are to:</h3>
+  <p>1. Provide high throughput access to application data.</p>
+  <p>2. Store and manage large amounts of data reliably.</p>
+  <p>
+    3. Offer a simple and cost-effective solution for distributed storage and
+    processing.
+  </p>
+  <p>4. Support the execution of large data-intensive applications.</p>
+  <p>
+    5. Provide an efficient and fault-tolerant method for data replication and
+    distribution.
+  </p>
+  <p>6. Minimize hardware cost and maintenance overhead.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">anatomy of file read and write in HDFS,&nbsp;</h2>
+  <p>HDFS File Read and Write Anatomy:&nbsp;</p>
+  <p>
+    1. A client application sends a request to the NameNode for a file read or
+    write operation.&nbsp;</p>
+  <p>
+    2. The NameNode checks if the requested file exists and returns the list of
+    DataNodes that store the file blocks.&nbsp;</p>
+  <p>
+    3. The client application establishes a pipeline between the DataNodes that
+    store the file blocks.&nbsp;</p>
+  <p>
+    4. The DataNodes start serving the file blocks to the client
+    application.&nbsp;</p>
+  <p>5. The client application reads or writes the data to the file blocks.</p>
+  <p>
+    6. The DataNodes send an acknowledgment to the client application on
+    completion of the operation.&nbsp;</p>
+  <p>
+    7. The client application sends a success or failure message to the NameNode
+    on completion of the operation.&nbsp;</p>
+  <p>8. The NameNode updates the metadata related to the file accordingly.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Replica placement strategy,&nbsp;</h2>
+  <p>Replica placement strategy in big data is a process of optimizing the
+    deployment of replicated data across multiple nodes in a distributed system.
+    It involves determining the best locations for replicas for high availability
+    and data consistency. The goal is to minimize the network latency, data
+    transfer cost, and the number of replicas that need to be maintained.</p>
+  <p>
+    Replica placement strategies are important for distributed data systems
+    because they enable better performance and scalability. The strategies can
+    also be used to improve data reliability and availability, as well as to
+    reduce data storage costs. Different strategies can be used depending on the
+    specific requirements of the system, including the amount of data stored, the
+    number of nodes, the type of workload, and the availability requirements.</p>
+  <p>
+    For example, when replicating data across multiple nodes, a common strategy is
+    to create replicas across geographically dispersed data centers. This allows
+    the system to be resilient to network issues and natural disasters, as well as
+    reducing the amount of data that needs to be transferred for data
+    synchronization. Other strategies involve creating replicas across nodes with
+    different hardware architectures, such as different types of disks, to improve
+    the performance of the system.</p>
+  <p>
+    Another strategy is to use a combination of multiple replication strategies,
+    such as multiple full replicas and partial replicas
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Working with HDFS Commands</h2>
+  <p>1. hdfs dfs -ls</p>
+  <p>
+    This command is used to list the contents of the current directory and any
+    subdirectories.
+  </p>
+  <p><br /></p>
+  <p>2. hdfs dfs -mkdir</p>
+  <p>This command is used to create a new directory in HDFS.</p>
+  <p><br /></p>
+  <p>3. hdfs dfs -put</p>
+  <p>
+    This command is used to copy the specified file or directory from the local
+    filesystem to the specified destination in HDFS.
+  </p>
+  <p><br /></p>
+  <p>4. hdfs dfs -get</p>
+  <p>
+    This command is used to copy the specified file or directory from HDFS to the
+    local filesystem.
+  </p>
+  <p><br /></p>
+  <p>5. hdfs dfs -rm</p>
+  <p>This command is used to remove the specified directory or file from HDFS.</p>
+  <p><br /></p>
+  <p>6. hdfs dfs -chmod</p>
+  <p>
+    This command is used to change the permissions of a file or directory in HDFS.
+  </p>
+  <p><br /></p>
+  <p>7. hdfs dfs -chown</p>
+  <p>This command is used to change the owner of a file or directory in HDFS.</p>
+  <p><br /></p>
+  <p>8. hdfs dfs -mv</p>
+  <p>
+    This command is used to move the specified file or directory from one location
+    to another in HDFS.
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Hadoop file system interfaces</h2>
+  <p>
+    Hadoop file system interfaces include the Hadoop Distributed File System
+    (HDFS), the Hadoop Compatible File System (HCFS), the Hadoop Archive File
+    System (HARFS), the Amazon S3 File System (S3FS), the Google Cloud Storage
+    File System (GCSFS), the Azure Blob Storage File System (ABFS), the WebHDFS
+    interface, and the Hadoop File System Shell (FSShell).</p>
+  <p>&nbsp;</p>
+  <h2 class="tableHeadBoldTypeH2">Hadoop 1.0 vs Hadoop 2.0,&nbsp;</h2>
+  <p style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa-b2N2_ypotM56hH9ynDwrWITtfaI3aU7ZgaIA7b4RDaDzZPi5JJKtjtKgV9xFGWjedHa_Xfp_8JZNk5EBPS7wWoHkaQAJPUlaWhIaManviSoehQt-CEAShtyhsnjl55So9Iz5BfPYTqiKFk-v-mcF1bRgjDq-rrV_jwxlgSUIORY79u6MOscwAj/s318/download.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="159" data-original-width="318" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwa-b2N2_ypotM56hH9ynDwrWITtfaI3aU7ZgaIA7b4RDaDzZPi5JJKtjtKgV9xFGWjedHa_Xfp_8JZNk5EBPS7wWoHkaQAJPUlaWhIaManviSoehQt-CEAShtyhsnjl55So9Iz5BfPYTqiKFk-v-mcF1bRgjDq-rrV_jwxlgSUIORY79u6MOscwAj/w400-h200/download.png" width="400" /></a></p><p style="text-align: center;"><br /></p><h2 class="tableHeadBoldTypeH2">Hadoop Ecosystem</h2>
+  <p style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPtUTIn1aNjDvmSKr08rbeJzHyPKcU3UR6IJACZDZFFuwvsWH_-Ok-WILknl10ro88OyHGYY6_mnUbx_ktwilXJI9ZrgqEwNJPQP9zTrAZ-POPhCNrEJpo_C-dVMXveqNRXGiIkJNcQTGIzmnLDo2yCtbQPPfOQLR8KDnBwgBvcHqYTHOk3h_BpOCw/s816/HADOOP-ECOSYSTEM-Edureka.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="639" data-original-width="816" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPtUTIn1aNjDvmSKr08rbeJzHyPKcU3UR6IJACZDZFFuwvsWH_-Ok-WILknl10ro88OyHGYY6_mnUbx_ktwilXJI9ZrgqEwNJPQP9zTrAZ-POPhCNrEJpo_C-dVMXveqNRXGiIkJNcQTGIzmnLDo2yCtbQPPfOQLR8KDnBwgBvcHqYTHOk3h_BpOCw/s16000/HADOOP-ECOSYSTEM-Edureka.png" /></a></p>
+  <p>
+    Hadoop Ecosystem is a set of open-source software components that work
+    together to enable distributed processing of large datasets across clusters of
+    computers using simple programming models.</p><p>It is designed to scale up from
+    single servers to thousands of machines, each offering local computation and
+    storage. The core of the Apache Hadoop Echo System consists of a storage part,
+    known as Hadoop Distributed File System (HDFS), and a processing part which is
+    a MapReduce programming model.</p><p>Hadoop Echo System also includes a number of
+    related tools such as Pig, Hive, HBase, Zookeeper, Oozie, and Sqoop. These
+    tools provide capabilities such as data ingestion, data warehousing, data
+    analysis, machine learning, and many other data-driven applications.&nbsp;</p><p>These
+    tools are commonly used in combination with Apache Spark, which is an
+    open-source distributed computing framework that provides in-memory processing
+    capabilities.
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Data Streaming</h2>
+  <p>Data streaming in Hadoop is the process of transferring data from one source
+    to another in real-time. This process is often used to transfer large amounts
+    of data from one cluster to another. It is also used for the analysis of data
+    in the Hadoop Distributed File System (HDFS). Data streaming enables the
+    analysis of data in chunks, which can help reduce the size of the data being
+    transferred. Data streaming also helps to reduce latency and improve the
+    performance of the system.</p><p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Data flow in hadoop</h2>
+  <p>
+    Data flow in Hadoop is governed by the Hadoop Distributed File System (HDFS).
+    HDFS stores and replicates data across multiple nodes in the Hadoop cluster.
+    It is designed to provide value-added services such as data replication,
+    scalability, and fault tolerance.</p>
+  <p>
+    Data enters the Hadoop cluster when the user submits an application to run on
+    the cluster. The application is then broken up into tasks, which are
+    distributed to the various nodes in the cluster.</p>
+  <p>
+    On each node, the data is then processed by the MapReduce framework (or some
+    other parallel processing framework). MapReduce divides data into key-value
+    pairs and then performs parallel processing over the data. The output of each
+    task is then sent back to the user.</p>
+  <p>
+    Finally, the user can access the output of the tasks through the HDFS. HDFS
+    provides a distributed file system for storing and accessing the data. Data
+    stored in HDFS is replicated across multiple nodes in the cluster, ensuring
+    fault tolerance and scalability.
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Data flow models&nbsp; in hadoop</h2>
+  <p>There are four main data flow models in Hadoop:</p>
+  <p>
+    1. Batch Processing: Batch processing is a process of data ingestion,
+    transformation and loading (ETL) into Hadoop. It is the most common form of
+    data processing in Hadoop and involves the use of MapReduce to process large
+    volumes of data.</p>
+  <p>
+    2. Stream Processing: Stream processing is the real time processing of data
+    streams. It is used to process and analyze data in real time as it enters the
+    system. Apache Storm, Apache Spark Streaming and Apache Flink are some of the
+    popular stream processing engines used in Hadoop.</p>
+  <p>
+    3. Complex Event Processing (CEP): CEP is a type of stream processing used to
+    detect patterns and correlations in data streams. It is mainly used in
+    applications such as fraud detection, financial trading and customer behavior
+    analysis. Apache Kafka and Apache Samza are some of the popular CEP tools used
+    in Hadoop.</p>
+  <p>
+    4. Lambda Architecture: Lambda architecture is a data processing architecture
+    that combines batch processing, stream processing and CEP. It is mainly used
+    for applications that require real time data processing with high throughput
+    and low latency. Apache Spark and Apache Apex are some of the popular Lambda
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Flume&nbsp;</h2>
+  <p>
+    Flume is a service for collecting, aggregating, and moving large amounts of
+    data from multiple sources into the Hadoop Distributed File System (HDFS).&nbsp;</p><p>It
+    is a distributed, reliable, and available service for efficiently collecting,
+    aggregating, and moving large amounts of streaming data into HDFS.&nbsp;</p><p>Flume has a
+    simple and flexible architecture based on streaming data flows. It is robust
+    and fault tolerant with tunable reliability mechanisms for failover and
+    recovery.</p>
+  <p>
+    Flume provides a powerful and reliable way of streaming data into HDFS. Its
+    flexible architecture allows for a range of sources and destinations to be
+    used, including HDFS, HBase, S3, and other services.&nbsp;</p><p>It also allows for data
+    to be transformed and enriched as it moves from source to destination. Flume
+    is highly extensible, allowing for custom sources, sinks, and channel
+    selectors to be implemented.&nbsp;</p><p>This extensibility makes it possible to integrate
+    Flume with a wide range of data sources and destinations.</p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Flumes Architecture</h2>
+  <p>Flume is a distributed, reliable, and available service for efficiently
+    collecting, aggregating, and moving large amounts of streaming data into a
+    centralized data store. It has a simple and flexible architecture based on
+    streaming data flows.</p>
+  <table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"><tbody><tr><td style="text-align: center;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5oux86FhzxSJ9aXUO7AayzwsMaFh7Poxmnk8Mbn-2vzzXtI0jJ8_Elpsz1EahmvnNBTGEKBZX1SzHkkVciclkEKnqFtlv-zffVq5eb7DyNPMl8RdWr5E_M9ny3gfxKDIpyyIr4bq35zwNgSkyXhjRNly1SVw7H9_514OxCX13yXdDEIEDi9_O_qqX/s600/apache_flume.jpg" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" data-original-height="226" data-original-width="600" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5oux86FhzxSJ9aXUO7AayzwsMaFh7Poxmnk8Mbn-2vzzXtI0jJ8_Elpsz1EahmvnNBTGEKBZX1SzHkkVciclkEKnqFtlv-zffVq5eb7DyNPMl8RdWr5E_M9ny3gfxKDIpyyIr4bq35zwNgSkyXhjRNly1SVw7H9_514OxCX13yXdDEIEDi9_O_qqX/s16000/apache_flume.jpg" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Flumes Architecture | IndianTechnoEra<br /><br /></td></tr></tbody></table>
+  <p>At its core, Flume consists of three main components:</p>
+  <p>
+    1. Sources: Sources generate and/or collect events, which are the basic unit
+    of data in Flume. Examples of sources include web servers, log files, and
+    network sockets.</p>
+  <p>
+    2. Channels: Channels are the entities that temporarily store events between
+    the Source and Sink. They provide persistent storage, allowing data to be
+    replayed in case of failure.</p>
+  <p>
+    3. Sinks: Sinks are the destinations where events are stored. Examples of
+    sinks include HDFS, HBase, and files.</p>
+  <p>
+    In addition, Flume has several optional components, such as Interceptors,
+    Selectors, and Sink Processors. These components provide additional features,
+    such as filtering and routing of events.
+  </p>
+  <p><br /></p>
+  <h2 class="tableHeadBoldTypeH2">Advantage of flumes&nbsp; in hadoop</h2>
+  <p>
+    1. Cost Savings: Flumes are cost-effective compared to other tools for
+    collecting, aggregating, and moving large amounts of data.</p>
+  <div style="text-align: left;">
+    2. Scalability: Flumes are designed to scale to a large number of nodes in a
+    Hadoop cluster.</div>
+  <p>
+    3. Flexibility: Flumes can be used to collect data from a variety of sources,
+    including log files, network traffic, and streaming data.</p>
+  <p>
+    4. Reliability: Flumes are designed to be fault tolerant and provide reliable
+    data delivery.</p>
+  <p>
+    5. Fault Tolerance: If a node in the cluster goes down, Flume will
+    automatically re-route the data to another node in the cluster.</p>
+  
+  <style>
+    .tableHeadBoldTypeH2{
+      text-align: left;
+    
+    }
+    .post-body h2 {
+      color: #fff;
+      font-family: times;
+      text-align: left;
+    }
+
+    .post-body p, p {
+      color: #000;
+    }
+  </style>
+
+</body>
+
+</html>

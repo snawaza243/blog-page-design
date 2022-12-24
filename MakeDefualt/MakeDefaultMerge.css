@@ -36,10 +36,8 @@ p {
     text-transform: capitalize;
     word-wrap: break-word;
     text-align: left;
-    text-shadow: 1px 1px 1px #000;
-
-
-
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-left: 5px;
 }
 
 .tableHeadBoldTypeData,
@@ -130,3 +128,40 @@ p {
 .chapterDivList a{color:#fff}
 .chapterDivList:hover{border-radius:25px;border-bottom:2px solid #000;border-top:2px solid #fff;color:#fff!important;padding-left:30px;transition:.4s;background-color:#1BDB94;box-shadow:0 0 5px #1BDB94;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;text-shadow:0 0 5px #000}
 .chapterDivList a{color:#000!important;text-decoration:none;transition:.6s}
+
+
+
+.post-body h2 {
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    background-color: #1BDB94;
+    height: 10px;
+    align-items: center;
+    display: inline-flex;
+    color: #fff;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-align: left;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    margin-left: 5px;
+    color: #fff;
+    font-family: times;
+    text-align: left;
+}
+
+.post-body h2:hover {
+    box-shadow: 0 0 5px #000;
+    transition: 0.2s ease-in-out;
+}
+
+  .post-body p{
+    color: #000;
+  }
+
+
+.post-body .post-toc ul li a:hover{
+    color: #0e3de4;
+}

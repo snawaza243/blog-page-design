@@ -98,3 +98,28 @@ p {
     border-radius: 5px;
     transition: 0.3s ease-in-out;
 }
+
+
+
+.post-body h2 {
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    word-wrap: break-word;
+    background-color: #1BDB94;
+    height: 10px;
+    align-items: center;
+    display: inline-flex;
+    color: #fff;
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000;
+}
+
+
+.post-body h2:hover {
+    box-shadow: 0 0 5px #000;
+    transition: 0.3s;
+}

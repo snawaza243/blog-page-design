@@ -2,6 +2,7 @@
 p {
     color: #000
 }
+
 .lyricsTable {
     width: 95%;
     margin-top: -10px;
@@ -45,7 +46,6 @@ p {
     text-align: left;
     padding: 20px;
     border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
     word-wrap: break-word;
     background-color: #ffffff;
     height: 10px;
@@ -97,37 +97,167 @@ p {
 
 
 /* main page css button*/
-.mainPageTopicButton{padding:20px 15px;margin:5px;width:fit-content;color:#fff;word-wrap:break-word;font-size:22px;white-space:normal;align-items:center;text-decoration:none;border-radius:5px;border-top:2px solid #fff;border-left:none;border-right:none;transition:.5s;background-color:#f0f8ff;border-bottom:2px solid #000}
-.mainPageTopicButton:hover{box-shadow:0 0 10px #1BDB94;transition:.2s;background-color:#1BDB94}
-.mainPageTopicButton a{color:#000;text-decoration:none}
-.mainPageTopicButton a:hover{transition:.3s;color:#fff;text-shadow:0 0 5px #000}
-.mainPageTopicBox{align-items:center;text-align:center}
-.mainPageTopicFeedDiv{margin:5%;text-decoration:none}
-.mainPageTopicFeedDiv a{margin-left:15px;text-decoration:none;transition:.4s;text-decoration:none;color:#082ba9}
-.mainPageTopicFeedDiv a:hover{color:#1BDB94;text-decoration:underline;transition:.4s;font-weight:700}
+.mainPageTopicButton {
+    padding: 20px 15px;
+    margin: 5px;
+    width: fit-content;
+    color: #fff;
+    word-wrap: break-word;
+    font-size: 22px;
+    white-space: normal;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border-top: 2px solid #fff;
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+    background-color: #f0f8ff;
+    border-bottom: 2px solid #000
+}
+
+.mainPageTopicButton:hover {
+    box-shadow: 0 0 10px #1BDB94;
+    transition: .2s;
+    background-color: #1BDB94
+}
+
+.mainPageTopicButton a {
+    color: #000;
+    text-decoration: none
+}
+
+.mainPageTopicButton a:hover {
+    transition: .3s;
+    color: #fff;
+    text-shadow: 0 0 5px #000
+}
+
+.mainPageTopicBox {
+    align-items: center;
+    text-align: center
+}
+
+.mainPageTopicFeedDiv {
+    margin: 5%;
+    text-decoration: none
+}
+
+.mainPageTopicFeedDiv a {
+    margin-left: 15px;
+    text-decoration: none;
+    transition: .4s;
+    text-decoration: none;
+    color: #082ba9
+}
+
+.mainPageTopicFeedDiv a:hover {
+    color: #1BDB94;
+    text-decoration: underline;
+    transition: .4s;
+    font-weight: 700
+}
+
 @media only screen and (min-width: 1501px) {
-.mainPageTopicButton{width:25%}
+    .mainPageTopicButton {
+        width: 25%
+    }
 }
+
 @media only screen and (max-width: 1500px) {
-.mainPageTopicButton{width:30%}
+    .mainPageTopicButton {
+        width: 30%
+    }
 }
+
 @media only screen and (max-width: 1200px) {
-.mainPageTopicButton{width:35%}
+    .mainPageTopicButton {
+        width: 35%
+    }
 }
+
 @media only screen and (max-width: 900px) {
-.mainPageTopicButton{width:40%}
+    .mainPageTopicButton {
+        width: 40%
+    }
 }
+
 @media only screen and (max-width: 680px) {
-.mainPageTopicButton{width:90%}
+    .mainPageTopicButton {
+        width: 90%
+    }
 }
 
 /* lesson list and head box */
-.lessonTopicHeadBox{border-radius:5px;color:#fff!important;background-color:#08a96e;box-shadow:0 0 5px #1BDB94;border-top:2px solid #fff;border-bottom:2px solid #000;height:35px;font-family:sans-serif;margin:10px;padding:5px;padding-left:20px;padding-right:20px;margin-bottom:10px;margin-left:20px;line-height:1.5;display:flex;align-items:center;width:fit-content;font-weight:700}
-.postListDivTime{transition:.6s}
-.chapterDivList{border-radius:5px;border-bottom:2px solid #000;border-top:2px solid #fff;color:#000;margin:10px;padding:10px;align-items:center;display:flex;transition:.6s;background-color:#f0f8ff;font-family:sans-serif;line-height:24px;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical}
-.chapterDivList a{color:#fff}
-.chapterDivList:hover{border-radius:25px;border-bottom:2px solid #000;border-top:2px solid #fff;color:#fff!important;padding-left:30px;transition:.4s;background-color:#1BDB94;box-shadow:0 0 5px #1BDB94;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;text-shadow:0 0 5px #000}
-.chapterDivList a{color:#000!important;text-decoration:none;transition:.6s}
+.lessonTopicHeadBox {
+    border-radius: 5px;
+    color: #fff !important;
+    background-color: #08a96e;
+    box-shadow: 0 0 5px #1BDB94;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #000;
+    height: 35px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: 700
+}
+
+.postListDivTime {
+    transition: .6s
+}
+
+.chapterDivList {
+    border-radius: 5px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #fff;
+    color: #000;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    transition: .6s;
+    background-color: #f0f8ff;
+    font-family: sans-serif;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
+}
+
+
+.chapterDivList:hover {
+    border-radius: 25px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #fff;
+    color: #fff !important;
+    padding-left: 30px;
+    transition: .4s;
+    background-color: #1BDB94;
+    box-shadow: 0 0 5px #1BDB94;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-shadow: 0 0 5px #000
+}
+
+.chapterDivList a {
+    color: #000 !important;
+    text-decoration: none;
+    transition: .6s
+}
 
 
 
@@ -157,11 +287,66 @@ p {
     transition: 0.2s ease-in-out;
 }
 
-  .post-body p{
+.post-body p {
     color: #000;
-  }
+}
 
 
-.post-body .post-toc ul li a:hover{
+.post-body .post-toc ul li a:hover {
     color: #0e3de4;
+}
+
+
+
+.post-body p {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.post-body h2 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    width: 94%;
+    margin-left: 5px;
+}
+
+
+h2 {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    width: 94%;
+    margin-left: 5px;
+}
+
+/* post table css for code react project code list with extension post body add css*/
+.myPostTableCodeMain {
+    width: 100%;
+}
+
+.myPostTableCodeHead {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+
+.myPostTableCodeData {
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+details {
+    color: #000;
+}
+
+details:hover {
+    cursor: pointer;
+    color: #1BDB94;
 }

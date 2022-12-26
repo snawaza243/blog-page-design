@@ -49,7 +49,7 @@ p {
     text-align: left;
     padding: 20px;
     border-radius: 5px;
-    border: 1px solid rgb(0, 0, 0);
+    border: px solid rgb(0, 0, 0);
     word-wrap: break-word;
     background-color: #ffffff;
     height: 10px;
@@ -72,7 +72,7 @@ p {
     border-bottom: 2px dotted black;
     color: blue;
     font-family: kokila;
-    font-size: 28px;
+    font-size: 25px;
     padding: 3px;
     transition: 0.4s;
     text-transform: capitalize;
@@ -88,7 +88,6 @@ p {
     margin: 3px;
     font-weight: 600;
     font-size: 20px;
-
     text-transform: capitalize;
 }
 

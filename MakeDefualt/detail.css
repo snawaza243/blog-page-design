@@ -1,0 +1,7 @@
+details{
+    color: #000;
+}
+details:hover{
+    cursor: pointer;
+    color: rgb(27, 219, 148);
+}

@@ -1,0 +1,702 @@
+/* all manually added css*/
+
+.PopularPosts>.widget-content>.post>.post-content {
+    height: 60px;
+    border-radius: 4px;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    transition: 0.4s;
+}
+
+.PopularPosts>.widget-content>.post>.post-date {
+    color: rgb(0, 0, 0);
+}
+
+.PopularPosts>.widget-content>.post>.post-content:hover {
+    background-color: rgb(8, 169, 110);
+    color: rgb(0, 0, 255);
+    transition: 0.3s;
+}
+
+.PopularPosts>.widget-content>.post>.post-content>.post-info>.post-title>a {
+    color: hwb(0 0% 100%);
+}
+
+
+.PopularPosts>.widget-content>.post>.post-content>.post-info>.post-title>a:hover {
+    color: #FFFFFF;
+}
+
+.mbtTOC {
+    border-bottom: 1px dotted rgb(0, 0, 0);
+    box-shadow: none;
+    background-color: none;
+    color: #707037;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+    padding: 20px 30px 20px 5px;
+    font-family: oswald, arial;
+    display: block;
+    width: auto;
+}
+
+.mbtTOC ul li {
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    align-items: center;
+    display: flex;
+    transition: 0.6s;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    list-style: none;
+    font-family: montserrat;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+
+}
+
+
+
+.mbtTOC ul li:hover {
+    padding-left: 20px;
+    transition: 0.4s;
+    color: #08a96e;
+
+
+}
+
+.mbtTOC ul li:first-letter {
+    text-transform: uppercase;
+}
+
+
+.mbtTOC ol,
+.mbtTOC ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mbtTOC ul {
+    list-style: none;
+    margin-top: 25px
+}
+
+.mbtTOC ol li,
+.mbtTOC ul li {
+    padding: 15px 0 0;
+    margin: 0 0 0 30px;
+    font-size: 15px;
+}
+
+
+.mbtTOC a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.mbtTOC a:hover {
+    color: #08a96e;
+    text-decoration: underline;
+}
+
+
+
+.mbtTOC button {
+    background: #08a96e;
+    font-family: 'Source Sans Pro';
+    font-size: 20px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    padding: 5px 20px 5px 10px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.mbtTOC button:hover {
+    box-shadow: 0 0 10px #08a96e;
+    transition: 0.3s;
+
+}
+
+
+
+.mbtTOC button:after {
+    content: "\f0dc";
+    font-family: FontAwesome;
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+}
+
+.mapasite {
+    margin-bottom: 10px;
+    background-color: #F8F8F8
+}
+
+.mapasite.active .mapa {
+    display: block
+}
+
+.mapasite .mapa {
+    display: none
+}
+
+.mapasite h2 {
+    background-color: #EEE;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: 700
+}
+
+.mapasite h2 .botao {
+    font-size: 18px;
+    line-height: 1.2em
+}
+
+.botao .fa-minus-circle {
+    color: #f30
+}
+
+.mapapost {
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 70px;
+    background-color: #FFF
+}
+
+.mapa {
+    padding: 40px
+}
+
+.map-thumb {
+    background-color: #F0F0F0;
+    padding: 10px;
+    display: block;
+    width: 65px;
+    height: 50px;
+    float: left
+}
+
+.map-img {
+    width: 65px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 2px
+}
+
+.map-thumb a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: all .3s ease-out !important;
+    -webkit-transition: all .3s ease-out !important;
+    -moz-transition: all .3s ease-out !important;
+    -o-transition: all .3s ease-out !important
+}
+
+.map-thumb a:hover {
+    -webkit-transform: scale(1.1) rotate(-1.5deg) !important;
+    -moz-transform: scale(1.1) rotate(-1.5deg) !important;
+    transform: scale(1.1) rotate(-1.5deg) !important;
+    transition: all .3s ease-out !important;
+    -webkit-transition: all .3s ease-out !important;
+    -moz-transition: all .3s ease-out !important;
+    -o-transition: all .3s ease-out !important
+}
+
+.mapapost .wrp-titulo {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.3em;
+    padding-left: 25px;
+    padding-right: 10px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5px
+}
+
+.mapapost .wrp-titulo a {
+    color: rgb(0, 0, 0);
+}
+
+.mapapost .wrp-titulo a:hover {
+    color: rgb(255, 51, 0);
+    text-decoration: underline
+}
+
+.map-meta {
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+.mapasite h2 .botao {
+    float: right
+}
+
+/* countdown time redirect button css */
+#redirect-download {
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background: rgb(30, 144, 255);
+    font-weight: 600;
+}
+
+#redirect-download:hover {
+    background: rgb(65, 105, 225);
+}
+
+/* lyrics table styling */
+p {
+    color: rgb(0, 0, 0)
+}
+
+.lyricsTable {
+    width: 95%;
+    margin-top: -10px;
+}
+
+.lyricsTableAbout {
+    color: rgb(0, 98, 255);
+    text-align: left;
+    width: 100px;
+    font-family: times;
+}
+
+.lyricsTableAboutData {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+
+/* old table head, code head bold extension title */
+/* .tableHeadBoldTypeH2 {
+    text-align: left;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    word-wrap: break-word;
+    background-color: rgb(27, 219, 148);
+    height: 10px;
+    align-items: center;
+    display: inline-flex;
+    color: rgb(255,255,255);
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+
+
+}
+
+.tableHeadBoldTypeData,
+.lyricsTableAboutMain {
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    word-wrap: break-word;
+    background-color: #ffffff;
+    height: 10px;
+    align-items: center;
+    color: rgb(255,255,255);
+    text-transform: capitalize;     
+
+} 
+
+.tableHeadBoldTypeH2:hover,
+.tableHeadBoldTypeData:hover,
+.lyricsTableAboutMain:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: 0.2s ease-in-out;
+}
+
+.tableHeadBoldTypeData p,
+.lyricsTableAboutData {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    color: blue;
+    font-family: kokila;
+    font-size: 28px;
+    padding: 3px;
+    transition: 0.4s;
+    text-transform: capitalize;
+    margin: 3px;
+    padding: 10px;
+}
+
+.lyricsTableAboutData {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    transition: 0.4s;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 20px;
+
+    text-transform: capitalize;
+}
+
+.tableHeadBoldTypeData p:hover,
+.lyricsTableAboutData:hover {
+    box-shadow: 0 0 2px rgb(0,0,0);000;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+} */
+
+/* new lyrics table css */
+
+
+
+
+
+
+
+
+
+
+
+
+/* main page css button*/
+.mainPageTopicButton {
+    padding: 20px 15px;
+    margin: 5px;
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    word-wrap: break-word;
+    font-size: 22px;
+    white-space: normal;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+    background-color: rgb(240, 248, 255);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.mainPageTopicButton:hover {
+    box-shadow: 0 0 10px rgb(27, 219, 148);
+    transition: .2s;
+    background-color: rgb(27, 219, 148);
+}
+
+.mainPageTopicButton a {
+    color: rgb(0, 0, 0);
+    text-decoration: none
+}
+
+.mainPageTopicButton a:hover {
+    transition: .3s;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.mainPageTopicBox {
+    align-items: center;
+    text-align: center
+}
+
+.mainPageTopicFeedDiv {
+    margin: 5%;
+    text-decoration: none
+}
+
+.mainPageTopicFeedDiv a {
+    margin-left: 15px;
+    text-decoration: none;
+    transition: .4s;
+    text-decoration: none;
+    color: rgb(8, 43, 169)
+}
+
+.mainPageTopicFeedDiv a:hover {
+    color: rgb(27, 219, 148);
+    text-decoration: underline;
+    transition: .4s;
+    font-weight: 700
+}
+
+@media only screen and (min-width: 1501px) {
+    .mainPageTopicButton {
+        width: 25%
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .mainPageTopicButton {
+        width: 30%
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .mainPageTopicButton {
+        width: 35%
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .mainPageTopicButton {
+        width: 40%
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .mainPageTopicButton {
+        width: 90%
+    }
+}
+
+/* lesson list and head box */
+.lessonTopicHeadBox {
+    border-radius: 5px;
+    color: #fff !important;
+    background-color: rgb(8, 169, 110);
+    box-shadow: 0 0 5px rgb(27, 219, 148);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    height: 35px;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    font-weight: 700
+}
+
+.postListDivTime {
+    transition: .6s
+}
+
+.chapterDivList {
+    border-radius: 5px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    transition: .6s;
+    background-color: rgb(240, 248, 255);
+    font-family: sans-serif;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical
+}
+
+.chapterDivList a {
+    color: rgb(255, 255, 255)
+}
+
+.chapterDivList:hover {
+    border-radius: 25px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
+    padding-left: 30px;
+    transition: .4s;
+    background-color: rgb(27, 219, 148);
+    box-shadow: 0 0 5px rgb(27, 219, 148);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.chapterDivList a {
+    color: rgb(0, 0, 0) !important;
+    text-decoration: none;
+    transition: .6s
+}
+
+
+/* Lyrics table css styling */
+
+.lyricsTable {
+    width: 99.5%;
+    text-align: left;
+    padding: 10px;
+    border-radius: 5px;
+    border: px solid rgb(0, 0, 0);
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    height: 10px;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+.lyricsTableAboutHead {
+    color: rgb(0, 98, 255);
+    text-align: left;
+    width: 100px;
+    font-family: times;
+    border-left: 2px solid rgb(0, 0, 0);
+}
+
+.lyricsTableAboutData {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.lyricsTableHeading,
+.myHead {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    word-wrap: break-word;
+    background-color: rgb(153, 255, 218);
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-align: left;
+    height: fit-content;
+    width: -1%;
+    margin-left: 2px;
+    margin-right: 10px !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}
+
+
+.lyricsTableHeading:hover {
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    transition: 0.6s ease-in-out;
+
+}
+
+.lyricsTableLyricsData p,
+.lyricsTableAboutData {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    font-family: kokila;
+    font-size: 25px;
+    transition: 0.4s;
+    text-transform: capitalize;
+    margin: 3px;
+    padding: 10px;
+}
+
+.lyricsTableAboutData {
+    border-bottom: 2px dotted rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    transition: 0.4s;
+    margin: 3px;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.lyricsTableLyricsData p:hover,
+.lyricsTableAboutData:hover {
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    color: rgb(27, 219, 148);
+    cursor: pointer;
+
+}
+
+
+
+/* prevent default css */
+
+/* heading h2 css */
+
+/*
+.post-body h2 {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    word-wrap: break-word;
+    background-color: rgb(153, 255, 218);
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    word-wrap: break-word;
+    text-align: left;
+    height: fit-content;
+    width: -1%;
+    margin-left: 2px;
+    margin-right: 10px !important;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+}*/
+
+
+
+.post-body h2 {
+    font-size: 24px !important;
+    color: rgb(0, 0, 0) !important;
+    border-left: 2px solid rgb(255, 255, 255) !important;
+    padding-left: 5px;
+    text-transform: capitalize;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+    font-weight: 700;
+    font-size: 25px !important;
+}
+
+.post-body h2:hover {
+    color: rgb(27, 219, 148) !important;
+    border-left: 2px solid rgb(27, 219, 148) !important;
+    text-shadow: 1px 1px 0.5px rgb(0, 0, 0);
+    margin-left: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
+.post-body,
+.post-body p,
+.widget .post-body li {
+    color: rgb(0, 0, 0);
+}
+
+.post-body p {
+    text-align: justify;
+    margin-left: 4px;
+}
+
+details{
+    color: #000;
+}
+details:hover{
+    cursor: pointer;
+    color: rgb(27, 219, 148);
+}

@@ -30,7 +30,7 @@ p {
     border-radius: 5px;
     border: 1px solid black;
     word-wrap: break-word;
-    background-color: #1BDB94;
+    background-color: rgb---(27, 219, 148);
     height: 10px;
     align-items: center;
     display: inline-flex;

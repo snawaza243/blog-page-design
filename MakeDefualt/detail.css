@@ -1,8 +1,10 @@
 details{
     color: #000;
+    transition: 0.5s;
 }
 details:hover{
     cursor: pointer;
     color: rgb(27, 219, 148);
-    
+    transition: 0.4s;
+
 }
